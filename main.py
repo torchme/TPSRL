@@ -15,6 +15,20 @@ CONFIG = {
 }
 
 def read_csv(df_name='df.csv'):
+    """
+Функция которая читает датасет и переводит его в numpy матрицу
+
+Parameters
+----------
+df_name : Название датасета
+
+Returns
+-------
+matrix_shape : int, Размерность матрицы
+value_matrix : numpy list, Матрица значений
+df : pandas DataFrame, Считанный датафрейм данных
+
+    """
     df = pd.read_csv(CONFIG['pathToDf'] + df_name, index_col='Unnamed: 0')
     df = df.iloc[:CONFIG['num_sample_df'], :CONFIG['num_sample_df']] # Убрать при деплое, используется для ограничения размерности
     matrix_shape = df.shape[0] # N
@@ -23,6 +37,17 @@ def read_csv(df_name='df.csv'):
     return matrix_shape, value_matrix, df
 
 def get_inference(agent):
+    """
+Функция инференса обученного агента
+
+Parameters
+----------
+agent : rllib.agent, обученный агент для инференса
+
+Returns
+-------
+None
+    """
     total_dist = 0
     actions = [0]
     obs = env.reset()
@@ -45,7 +70,21 @@ def get_inference(agent):
     print(total_dist)
 
 def train_func(config, checkpoint_dir='agents/ppo_last_checkpoint'):
-    run = wandb.init(project="TSPRL", entity="torchme")
+    """
+Функция трейнлупа с интеграцией `wandb.ai` для трекинга результатов и сохранения артефактов.
+W&B log получается статистические параметры reward и размер episodes. W&B artefact сохраняет обученного агента.
+
+Parameters
+----------
+config : class, rllib agent config
+checkpoint_dir : str, Директория по которой будет сохраняться агент
+
+Returns
+-------
+agent : Обученный агент
+    """
+
+    run = wandb.init(project=f"TSPRL-{CONFIG['num_sample_df']}x{CONFIG['num_sample_df']}", entity="torchme")
     wandb.run.name = 'TPSRL'
 
     for _ in range(CONFIG['num_iter']):
@@ -73,9 +112,22 @@ def train_func(config, checkpoint_dir='agents/ppo_last_checkpoint'):
     return agent
 
 def env_creator(env_config):
+
     return MyEnv(env_config)  # return an env instance
 
 class MyEnv(gym.Env):
+    """
+Кастомное окружение библиотеки gym.Env
+
+functions
+--------
+__init__ : Инициализация параметров класса
+
+reset : Функция перезагрузки параметров
+
+step : Функция одного шага
+
+    """
     def __init__(self, env_config):
         super().__init__()
         self.count_steps = matrix_shape
@@ -141,7 +193,6 @@ if __name__ == '__main__':
         stop={"training_iteration": 50}
     )
 
-    ### Для теста
     get_inference(agent)
 
     ray.shutdown()
