@@ -1,0 +1,188 @@
+mean episode length: 49.5875
+max episode reward: -12342195.9
+mean episode reward: -33543255.216250025
+min episode reward: -89344414.09999992
+total episodes: 80
+2022-05-21 20:34:40,916	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 3354326.0x the scale of `vf_clip_param`. This means that it will take more than 3354326.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 47.24
+max episode reward: -8996541.2
+mean episode reward: -31811358.312000018
+min episode reward: -89708934.29999992
+total episodes: 164
+2022-05-21 20:34:48,654	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 3181136.0x the scale of `vf_clip_param`. This means that it will take more than 3181136.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 45.29
+max episode reward: -8520107.7
+mean episode reward: -30226843.955000013
+min episode reward: -101789957.09999983
+total episodes: 255
+2022-05-21 20:34:56,199	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 3022684.0x the scale of `vf_clip_param`. This means that it will take more than 3022684.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 37.613207547169814
+max episode reward: -8144061.000000001
+mean episode reward: -24206629.82830189
+min episode reward: -49430055.00000005
+total episodes: 361
+2022-05-21 20:35:03,843	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 2420663.0x the scale of `vf_clip_param`. This means that it will take more than 2420663.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 34.29059829059829
+max episode reward: -8203153.4
+mean episode reward: -21556783.376923084
+min episode reward: -47609887.000000045
+total episodes: 478
+2022-05-21 20:35:11,370	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 2155678.0x the scale of `vf_clip_param`. This means that it will take more than 2155678.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 31.265625
+max episode reward: -7996486.3
+mean episode reward: -19263217.65625
+min episode reward: -36885282.10000003
+total episodes: 606
+2022-05-21 20:35:19,048	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 1926322.0x the scale of `vf_clip_param`. This means that it will take more than 1926322.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 29.176470588235293
+max episode reward: -6827805.9
+mean episode reward: -17612304.983823527
+min episode reward: -42650831.20000003
+total episodes: 742
+2022-05-21 20:35:26,697	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 1761230.0x the scale of `vf_clip_param`. This means that it will take more than 1761230.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 26.401315789473685
+max episode reward: -6486805.1
+mean episode reward: -15207383.38355263
+min episode reward: -32068087.80000002
+total episodes: 894
+2022-05-21 20:35:34,315	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 1520738.0x the scale of `vf_clip_param`. This means that it will take more than 1520738.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 23.674556213017752
+max episode reward: -6262252.3
+mean episode reward: -12964934.187573964
+min episode reward: -24879277.90000001
+total episodes: 1063
+2022-05-21 20:35:42,061	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 1296493.0x the scale of `vf_clip_param`. This means that it will take more than 1296493.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 21.605405405405406
+max episode reward: -5245555.100000001
+mean episode reward: -11321002.582702702
+min episode reward: -24818746.80000001
+total episodes: 1248
+2022-05-21 20:35:49,850	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 1132100.0x the scale of `vf_clip_param`. This means that it will take more than 1132100.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 20.21105527638191
+max episode reward: -4562497.8
+mean episode reward: -10103804.495477386
+min episode reward: -21152067.700000003
+total episodes: 1447
+2022-05-21 20:35:57,780	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 1010380.0x the scale of `vf_clip_param`. This means that it will take more than 1010380.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 18.558139534883722
+max episode reward: -4675655.9
+mean episode reward: -8782330.521860464
+min episode reward: -15047621.499999996
+total episodes: 1662
+2022-05-21 20:36:05,456	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 878233.0x the scale of `vf_clip_param`. This means that it will take more than 878233.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 17.66079295154185
+max episode reward: -4114904.5000000005
+mean episode reward: -7826569.998237885
+min episode reward: -15781791.199999996
+total episodes: 1889
+2022-05-21 20:36:13,071	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 782657.0x the scale of `vf_clip_param`. This means that it will take more than 782657.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 17.17241379310345
+max episode reward: -3567683.5999999996
+mean episode reward: -7468274.985775861
+min episode reward: -15268220.199999996
+total episodes: 2121
+2022-05-21 20:36:20,771	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 746827.0x the scale of `vf_clip_param`. This means that it will take more than 746827.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 16.36326530612245
+max episode reward: -3694064.1999999997
+mean episode reward: -6589240.779591837
+min episode reward: -9795832.600000001
+total episodes: 2366
+2022-05-21 20:36:28,535	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 658924.0x the scale of `vf_clip_param`. This means that it will take more than 658924.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 16.08433734939759
+max episode reward: -3310600.5999999996
+mean episode reward: -6238259.967871486
+min episode reward: -11456521.899999999
+total episodes: 2615
+2022-05-21 20:36:36,178	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 623826.0x the scale of `vf_clip_param`. This means that it will take more than 623826.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 15.904382470119522
+max episode reward: -3268398.9
+mean episode reward: -5802131.264143425
+min episode reward: -9252754.799999999
+total episodes: 2866
+2022-05-21 20:36:43,918	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 580213.0x the scale of `vf_clip_param`. This means that it will take more than 580213.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 15.63671875
+max episode reward: -3186006.8
+mean episode reward: -5517286.221484374
+min episode reward: -10985045.399999997
+total episodes: 3122
+2022-05-21 20:36:51,658	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 551729.0x the scale of `vf_clip_param`. This means that it will take more than 551729.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 15.507751937984496
+max episode reward: -2917645.5
+mean episode reward: -5104014.915891472
+min episode reward: -7921968.799999999
+total episodes: 3380
+2022-05-21 20:36:59,338	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 510401.0x the scale of `vf_clip_param`. This means that it will take more than 510401.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 15.428571428571429
+max episode reward: -2945849.5
+mean episode reward: -4884349.346332045
+min episode reward: -8018567.199999999
+total episodes: 3639
+2022-05-21 20:37:06,934	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 488435.0x the scale of `vf_clip_param`. This means that it will take more than 488435.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 15.444015444015443
+max episode reward: -2822946.7
+mean episode reward: -4700083.037065636
+min episode reward: -7533150.499999999
+total episodes: 3898
+2022-05-21 20:37:14,715	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 470008.0x the scale of `vf_clip_param`. This means that it will take more than 470008.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 15.367816091954023
+max episode reward: -2604431.4999999995
+mean episode reward: -4340656.840229886
+min episode reward: -9733894.399999999
+total episodes: 4159
+2022-05-21 20:37:22,499	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 434066.0x the scale of `vf_clip_param`. This means that it will take more than 434066.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 15.302681992337165
+max episode reward: -2395338.0
+mean episode reward: -4322737.219923372
+min episode reward: -7271325.999999999
+total episodes: 4420
+2022-05-21 20:37:30,243	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 432274.0x the scale of `vf_clip_param`. This means that it will take more than 432274.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 15.193916349809886
+max episode reward: -2394342.5
+mean episode reward: -4005912.909125475
+min episode reward: -6334360.6
+total episodes: 4683
+2022-05-21 20:37:38,046	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 400591.0x the scale of `vf_clip_param`. This means that it will take more than 400591.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 15.166666666666666
+max episode reward: -2134166.6
+mean episode reward: -3857264.3397727273
+min episode reward: -6750195.7
+total episodes: 4947
+2022-05-21 20:37:45,866	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 385726.0x the scale of `vf_clip_param`. This means that it will take more than 385726.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 15.151515151515152
+max episode reward: -2269716.0
+mean episode reward: -3632321.9958333336
+min episode reward: -6496512.500000001
+total episodes: 5211
+2022-05-21 20:37:53,533	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 363232.0x the scale of `vf_clip_param`. This means that it will take more than 363232.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 15.159090909090908
+max episode reward: -2301373.1
+mean episode reward: -3592702.542045454
+min episode reward: -6249570.1
+total episodes: 5475
+2022-05-21 20:38:01,242	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 359270.0x the scale of `vf_clip_param`. This means that it will take more than 359270.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 15.105660377358491
+max episode reward: -2206221.0000000005
+mean episode reward: -3404623.5633962266
+min episode reward: -5271817.6
+total episodes: 5740
+2022-05-21 20:38:09,072	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 340462.0x the scale of `vf_clip_param`. This means that it will take more than 340462.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 15.132575757575758
+max episode reward: -2086219.8
+mean episode reward: -3316829.920833333
+min episode reward: -6726717.6
+total episodes: 6004
+2022-05-21 20:38:16,838	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 331683.0x the scale of `vf_clip_param`. This means that it will take more than 331683.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 15.09811320754717
+max episode reward: -2089363.5
+mean episode reward: -3058082.599245283
+min episode reward: -5015962.5
+total episodes: 6269
+2022-05-21 20:38:24,582	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 305808.0x the scale of `vf_clip_param`. This means that it will take more than 305808.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+mean episode length: 15.079245283018867
+max episode reward: -2089363.5
+mean episode reward: -2999362.2366037737
+min episode reward: -5346612.299999999
+total episodes: 6534
+2022-05-21 20:38:32,511	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 299936.0x the scale of `vf_clip_param`. This means that it will take more than 299936.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+2022-05-21 20:38:32,521	WARNING deprecation.py:45 -- DeprecationWarning: `clear_buffer` has been deprecated. Use `Filter.reset_buffer()` instead. This will raise an error in the future!
+[34m[1mwandb[39m[22m: Adding directory to artifact (./agents/ppo_last_checkpoint/checkpoint_000031)... Done. 0.0s
