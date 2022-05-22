@@ -84,8 +84,8 @@ Returns
 agent : Обученный агент
     """
 
-    run = wandb.init(project=f"TSPRL-{CONFIG['num_sample_df']}x{CONFIG['num_sample_df']}", entity="torchme")
-    wandb.run.name = 'TPSRL'
+    run = wandb.init(project=f"TSPRL", entity="torchme")
+    wandb.run.name = f"TPSRL-{CONFIG['num_sample_df']}x{CONFIG['num_sample_df']}"
 
     for _ in range(CONFIG['num_iter']):
         result = agent.train()

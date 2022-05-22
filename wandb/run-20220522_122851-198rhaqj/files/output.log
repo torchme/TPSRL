@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/pandas/core/indexes/range.py", line 385, in get_loc
+    return self._range.index(new_key)
+ValueError: 41 is not in range
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/kartushov/pet_projects/RLTPS/gen_deap.py", line 88, in <module>
+    wandb_register(logbook)
+  File "/home/kartushov/pet_projects/RLTPS/gen_deap.py", line 75, in wandb_register
+    'gen:': result_df.loc['gen', i],
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/pandas/core/indexing.py", line 960, in __getitem__
+    return self.obj._get_value(*key, takeable=self._takeable)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/pandas/core/frame.py", line 3615, in _get_value
+    series = self._get_item_cache(col)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/pandas/core/frame.py", line 3931, in _get_item_cache
+    loc = self.columns.get_loc(item)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/pandas/core/indexes/range.py", line 387, in get_loc
+    raise KeyError(key) from err
+KeyError: 41
