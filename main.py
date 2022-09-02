@@ -6,11 +6,11 @@ import ray.rllib as rllib
 from ray import tune
 from ray.tune.registry import register_env
 import wandb
-
+import time
 
 CONFIG = {
     'pathToDf':'data/',
-    'num_iter': 31,
+    'num_iter': 101,
     'num_sample_df': 26
 }
 
@@ -30,7 +30,7 @@ df : pandas DataFrame, Считанный датафрейм данных
 
     """
     df = pd.read_csv(CONFIG['pathToDf'] + df_name, index_col='Unnamed: 0')
-    df = df.iloc[:CONFIG['num_sample_df'], :CONFIG['num_sample_df']] # Убрать при деплое, используется для ограничения размерности
+    df = df.iloc[2:CONFIG['num_sample_df']+2, 2:CONFIG['num_sample_df']+2] # Убрать при деплое, используется для ограничения размерности
     matrix_shape = df.shape[0] # N
     value_matrix = df.values # M
 
@@ -48,10 +48,15 @@ Returns
 -------
 None
     """
+    run = wandb.init(project=f"TSPRL", entity="torchme")
+    wandb.run.name = f"TPS/RL/INF-{CONFIG['num_sample_df']}x{CONFIG['num_sample_df']}"
+
     total_dist = 0
     actions = [0]
     obs = env.reset()
+    total_time = 0
     for i in range(CONFIG['num_sample_df']):
+        start_time = time.time()
         action = agent.compute_single_action(obs, explore=False)
         # print(f'action: {action}, action space: {env.action_space}')
         obs, reward, done, info = env.step(action)
@@ -59,12 +64,21 @@ None
         actions.append(action + 1)
         # print(f'{g} was added by {M[actions[-1], action+1]}')
         # print(reward)
+        time_iter = time.time() - start_time
+        total_time += time_iter
+        wandb.log({
+            'inference distance': total_dist,
+            'time inference': total_time,
+            'time one iteration': time_iter
+        })
         if done:
             obs = env.reset()
             total_dist += value_matrix[actions[-1], 0]
             print(f"Done")
+            run.finish()
             break
         env.close()
+
 
     print(actions)
     print(total_dist)
@@ -84,23 +98,59 @@ Returns
 agent : Обученный агент
     """
 
-    run = wandb.init(project=f"TSPRL-{CONFIG['num_sample_df']}x{CONFIG['num_sample_df']}", entity="torchme")
-    wandb.run.name = 'TPSRL'
-
+    run = wandb.init(project=f"TSPRL", entity="torchme")
+    wandb.run.name = f"TSP/RL/TRAIN-{CONFIG['num_sample_df']}x{CONFIG['num_sample_df']}"
+    total_time_train = 0
+    total_time_inference = 0
+    total_time_iter = 0
     for _ in range(CONFIG['num_iter']):
+        start_time_train = time.time()
         result = agent.train()
+        end_time_train = time.time()
+
+        train_time = end_time_train - start_time_train
+
+        #================
+        #================ Заменить на функцию
+        total_dist = 0
+        actions = [0]
+        obs = env.reset()
+        total_time = 0
+        start_time_inference = time.time()
+        for i in range(CONFIG['num_sample_df']):
+            action = agent.compute_single_action(obs, explore=False)
+            obs, reward, done, info = env.step(action)
+            total_dist += value_matrix[actions[-1], action + 1]
+            actions.append(action + 1)
+            if done:
+                obs = env.reset()
+                total_dist += value_matrix[actions[-1], 0]
+                #print(f"Done")
+                #run.finish()
+                break
+            env.close()
+        end_time_inference = time.time()
+        inference_time = end_time_inference - start_time_inference
+        total_time_iter += train_time + inference_time
+        total_time_train += train_time
+        total_time_inference += inference_time
         wandb.log({
             'mean episode length:': result['episode_len_mean'],
             'max episode reward:': result['episode_reward_max'],
             'mean episode reward:': result['episode_reward_mean'],
             'min episode reward:': result['episode_reward_min'],
             'total episodes:': result['episodes_total'],
+            'distance': total_dist,
+            'time train': total_time_train,
+            'infernce time': total_time_inference,
+            'total time': total_time_iter
         })
         print('mean episode length:', result['episode_len_mean'])
         print('max episode reward:', result['episode_reward_max'])
         print('mean episode reward:', result['episode_reward_mean'])
         print('min episode reward:', result['episode_reward_min'])
         print('total episodes:', result['episodes_total'])
+        print('distance:', total_dist)
     agent.save('agents/ppo_last_checkpoint')
 
     artifact = wandb.Artifact(name='PPOlastCheckPoint', type='artifact_type')
@@ -111,7 +161,7 @@ agent : Обученный агент
     agent.stop()
     return agent
 
-def env_creator(env_config):
+def env_creator(env_config, matrix):
 
     return MyEnv(env_config)  # return an env instance
 
@@ -132,10 +182,13 @@ step : Функция одного шага
         super().__init__()
         self.count_steps = matrix_shape
         self.n = matrix_shape-1
+
         self.action_space = gym.spaces.Discrete(self.n)
         self.observation_space = gym.spaces.Dict({
             'visited': gym.spaces.MultiBinary(self.n),
-            'last': gym.spaces.Discrete(matrix_shape)})
+            'last': gym.spaces.Discrete(self.count_steps)
+        })
+
 
     def reset(self):
         self.state = {'visited': np.zeros(self.n), 'last': 0}
@@ -170,16 +223,24 @@ if __name__ == '__main__':
     config["num_workers"] = 1
     config["framework"] = "torch"
     config["env_config"] = {}
-
+    #print(df)
 
     env = MyEnv(config)
+    #env.matrix = value_matrix
+    #print(env.matrix)
 
     agent = rllib.agents.ppo.PPOTrainer(config=config, env=MyEnv)
     obs = env.reset()
-    register_env("my_env", env_creator)
 
+    #get_inference(agent)
+    #obs = env.reset()
+
+    register_env("my_env2", env_creator)
+
+    #123
+    agent.restore('agents/ppo_last_checkpoint/checkpoint_000132/checkpoint-233')
     agent = train_func(agent)
-
+    """
     experiment = tune.run(
         rllib.agents.ppo.PPOTrainer,
         config={
@@ -192,6 +253,13 @@ if __name__ == '__main__':
         mode="max",
         stop={"training_iteration": 50}
     )
+    """
+    #Save
+    agent.save()
+    #31 51 101 (132 вторая стадия) (233 третья)
+
+    #Load
+
 
     get_inference(agent)
 

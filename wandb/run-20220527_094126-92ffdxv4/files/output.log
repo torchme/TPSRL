@@ -1,0 +1,157 @@
+mean episode length: 14.78888888888889
+max episode reward: -46.0
+mean episode reward: -161.57037037037037
+min episode reward: -508.0
+total episodes: 270
+mean episode length: 12.416149068322982
+max episode reward: -42.0
+mean episode reward: -130.61490683229815
+min episode reward: -474.0
+total episodes: 592
+mean episode length: 10.08816120906801
+max episode reward: -43.0
+mean episode reward: -100.02267002518892
+min episode reward: -282.0
+total episodes: 989
+mean episode length: 8.75219298245614
+max episode reward: -39.0
+mean episode reward: -82.62061403508773
+min episode reward: -258.0
+total episodes: 1445
+mean episode length: 7.656488549618321
+max episode reward: -39.0
+mean episode reward: -68.07633587786259
+min episode reward: -152.0
+total episodes: 1969
+mean episode length: 6.975567190226876
+max episode reward: -39.0
+mean episode reward: -59.05061082024433
+min episode reward: -142.0
+total episodes: 2542
+mean episode length: 6.487844408427877
+max episode reward: -38.0
+mean episode reward: -51.84116693679093
+min episode reward: -109.0
+total episodes: 3159
+mean episode length: 6.238689547581903
+max episode reward: -38.0
+mean episode reward: -47.981279251170044
+min episode reward: -87.0
+total episodes: 3800
+mean episode length: 6.155384615384615
+max episode reward: -38.0
+mean episode reward: -46.49230769230769
+min episode reward: -75.0
+total episodes: 4450
+mean episode length: 6.082191780821918
+max episode reward: -38.0
+mean episode reward: -44.986301369863014
+min episode reward: -84.0
+total episodes: 5107
+mean episode length: 6.05143721633888
+max episode reward: -38.0
+mean episode reward: -43.937972768532525
+min episode reward: -61.0
+total episodes: 5768
+mean episode length: 6.028614457831325
+max episode reward: -38.0
+mean episode reward: -43.46234939759036
+min episode reward: -65.0
+total episodes: 6432
+mean episode length: 6.019578313253012
+max episode reward: -38.0
+mean episode reward: -42.53313253012048
+min episode reward: -69.0
+total episodes: 7096
+mean episode length: 6.018045112781955
+max episode reward: -38.0
+mean episode reward: -42.30977443609022
+min episode reward: -60.0
+total episodes: 7761
+mean episode length: 6.016541353383459
+max episode reward: -38.0
+mean episode reward: -41.741353383458645
+min episode reward: -59.0
+total episodes: 8426
+mean episode length: 6.0075075075075075
+max episode reward: -38.0
+mean episode reward: -41.35885885885886
+min episode reward: -55.0
+total episodes: 9092
+mean episode length: 6.0075075075075075
+max episode reward: -38.0
+mean episode reward: -41.08258258258258
+min episode reward: -56.0
+total episodes: 9758
+mean episode length: 6.009022556390978
+max episode reward: -38.0
+mean episode reward: -40.58496240601504
+min episode reward: -57.0
+total episodes: 10423
+mean episode length: 6.002998500749626
+max episode reward: -38.0
+mean episode reward: -40.34182908545727
+min episode reward: -54.0
+total episodes: 11090
+mean episode length: 6.004504504504505
+max episode reward: -38.0
+mean episode reward: -40.38288288288288
+min episode reward: -59.0
+total episodes: 11756
+mean episode length: 6.0
+max episode reward: -38.0
+mean episode reward: -40.02402402402402
+min episode reward: -50.0
+total episodes: 12422
+mean episode length: 6.004497751124438
+max episode reward: -38.0
+mean episode reward: -39.84107946026987
+min episode reward: -56.0
+total episodes: 13089
+mean episode length: 6.001501501501502
+max episode reward: -38.0
+mean episode reward: -39.593093093093096
+min episode reward: -51.0
+total episodes: 13755
+mean episode length: 6.0
+max episode reward: -38.0
+mean episode reward: -39.454272863568214
+min episode reward: -49.0
+total episodes: 14422
+mean episode length: 6.0
+max episode reward: -38.0
+mean episode reward: -39.4024024024024
+min episode reward: -48.0
+total episodes: 15088
+mean episode length: 6.001499250374812
+max episode reward: -38.0
+mean episode reward: -39.181409295352324
+min episode reward: -51.0
+total episodes: 15755
+mean episode length: 6.0
+max episode reward: -38.0
+mean episode reward: -39.15742128935532
+min episode reward: -49.0
+total episodes: 16422
+mean episode length: 6.003003003003003
+max episode reward: -38.0
+mean episode reward: -39.15465465465466
+min episode reward: -52.0
+total episodes: 17088
+mean episode length: 6.0
+max episode reward: -38.0
+mean episode reward: -39.07796101949025
+min episode reward: -44.0
+total episodes: 17755
+mean episode length: 6.006006006006006
+max episode reward: -38.0
+mean episode reward: -39.3993993993994
+min episode reward: -55.0
+total episodes: 18421
+2022-05-27 09:45:19,662	WARNING deprecation.py:45 -- DeprecationWarning: `clear_buffer` has been deprecated. Use `Filter.reset_buffer()` instead. This will raise an error in the future!
+[34m[1mwandb[39m[22m: Adding directory to artifact (./agents/ppo_last_checkpoint/checkpoint_000031)... Done. 0.0s
+mean episode length: 6.0
+max episode reward: -38.0
+mean episode reward: -39.147147147147145
+min episode reward: -48.0
+total episodes: 19087

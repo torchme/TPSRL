@@ -5,7 +5,7 @@ import random
 
 PATH_DF = 'data/'
 
-df = pd.read_csv(PATH_DF + 'dist_vologda_matrix.csv', index_col='Unnamed: 0').iloc[:16, :16]
+df = pd.read_csv(PATH_DF + 'dist_vologda_matrix.csv', index_col='Unnamed: 0').iloc[8:16+8, 8:16+8]
 
 matrix = df.values
 

@@ -1,0 +1,40 @@
+ reward2: -766527.3
+ reward2: -734029.1
+ reward2: -459980.0
+ reward2: -62501.4
+ reward2: -337279.0
+ reward1: -768632.9
+ reward1: -768632.9
+ reward1: -768632.9
+ reward1: -768632.9
+ reward1: -768632.9
+ reward1: -768632.9
+ reward1: -768632.9
+ reward1: -768632.9
+ reward1: -768632.9
+ reward1: -768632.9
+ reward1: -768632.9
+ reward1: -768632.9
+ reward1: -768632.9
+ reward1: -768632.9
+ reward1: -768632.9
+ reward1: -768632.9
+ reward1: -768632.9
+ reward1: -768632.9
+ reward1: -768632.9
+ reward1: -768632.9
+ reward1: -768632.9
+[0, 10, 21, 5, 17, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14]
+2360316.8
+Traceback (most recent call last):
+  File "/home/kartushov/pet_projects/RLTPS/main.py", line 241, in <module>
+    agent.restore('agents/ppo_last_checkpoint/checkpoint_000132/checkpoint-233')
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/tune/trainable.py", line 476, in restore
+    with open(checkpoint_path + ".tune_metadata", "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'agents/ppo_last_checkpoint/checkpoint_000132/checkpoint-233.tune_metadata'
+Traceback (most recent call last):
+  File "/home/kartushov/pet_projects/RLTPS/main.py", line 241, in <module>
+    agent.restore('agents/ppo_last_checkpoint/checkpoint_000132/checkpoint-233')
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/tune/trainable.py", line 476, in restore
+    with open(checkpoint_path + ".tune_metadata", "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'agents/ppo_last_checkpoint/checkpoint_000132/checkpoint-233.tune_metadata'

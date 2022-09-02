@@ -1,0 +1,4 @@
+INPUT_DATA_DIR: data/raw/dist_vologda_matrix.csv
+OUTPUT_DATA_DIR: data/processed/precessed.csv
+num_iter: 31
+num_sample_df: 222

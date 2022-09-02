@@ -1,0 +1,22 @@
+{
+    "os": "Linux-5.13.0-48-generic-x86_64-with-glibc2.31",
+    "python": "3.9.10",
+    "heartbeatAt": "2022-06-17T19:20:43.004561",
+    "startedAt": "2022-06-17T19:20:39.622077",
+    "docker": null,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/kartushov/pet_projects/RLTPS/gen_deap.py",
+    "codePath": "gen_deap.py",
+    "git": {
+        "remote": "https://github.com/torchme/TPSRL.git",
+        "commit": "3fa7aedf7f267237bf93abd7265e27c78f23d41e"
+    },
+    "email": "redpowerfuls@gmail.com",
+    "root": "/home/kartushov/pet_projects/RLTPS",
+    "host": "DK-GF63",
+    "username": "kartushov",
+    "executable": "/home/kartushov/pet_projects/RLTPS/venv/bin/python"
+}

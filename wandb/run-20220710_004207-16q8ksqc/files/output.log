@@ -1,0 +1,742 @@
+
+2022-07-10 00:42:25,285	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 1034519.0x the scale of `vf_clip_param`. This means that it will take more than 1034519.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+ reward2: -129555.5
+ reward2: -177616.1
+ reward2: -469580.1
+ reward2: -301837.2
+ reward2: -433123.3
+ reward2: -342753.2
+ reward2: -198769.1
+ reward2: -303735.0
+ reward2: -154936.3
+ reward2: -478718.2
+ reward2: -354464.5
+ reward2: -110002.9
+ reward2: -64869.2
+ reward2: -344596.9
+ reward2: -256554.5
+ reward2: -260013.0
+ reward2: -584130.6
+ reward2: -57629.4
+ reward2: -321135.5
+ reward2: -185720.6
+ reward2: -93444.7
+ reward2: -45082.7
+ reward2: -73859.7
+ reward2: -482379.8
+ reward2: -553468.9
+mean episode length: 29.503703703703703
+max episode reward: -5966161.0
+mean episode reward: -10345187.097037038
+min episode reward: -17400504.500000004
+total episodes: 2548
+distance: 6895912.9
+2022-07-10 00:42:38,873	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 1015592.0x the scale of `vf_clip_param`. This means that it will take more than 1015592.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+ reward2: -129555.5
+ reward2: -177616.1
+ reward2: -469580.1
+ reward2: -301837.2
+ reward2: -17375.0
+ reward2: -236823.7
+ reward2: -189389.2
+ reward2: -17192.2
+ reward2: -389279.9
+ reward2: -12473.5
+ reward2: -104729.1
+ reward2: -495320.1
+ reward2: -329008.4
+ reward2: -160617.3
+ reward2: -273115.0
+ reward2: -568653.4
+ reward2: -108960.9
+ reward2: -326058.3
+ reward2: -267549.4
+ reward2: -321135.5
+ reward2: -185720.6
+ reward2: -122221.9
+ reward2: -482379.8
+ reward2: -407025.8
+ reward2: -237.7
+mean episode length: 29.197080291970803
+max episode reward: -6088774.4
+mean episode reward: -10155921.451824818
+min episode reward: -20910213.499999996
+total episodes: 2685
+distance: 6279752.5
+2022-07-10 00:42:51,345	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 952561.0x the scale of `vf_clip_param`. This means that it will take more than 952561.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+ reward2: -129555.5
+ reward2: -429713.5
+ reward2: -342753.2
+ reward2: -198769.1
+ reward2: -389605.8
+ reward2: -244895.6
+ reward2: -154936.3
+ reward2: -478718.2
+ reward2: -354464.5
+ reward2: -117741.9
+ reward2: -17375.0
+ reward2: -64869.2
+ reward2: -88252.2
+ reward2: -319242.9
+ reward2: -62632.3
+ reward2: -704651.7
+ reward2: -471311.8
+ reward2: -288734.3
+ reward2: -231339.6
+ reward2: -93444.7
+ reward2: -183314.5
+ reward1: -769055.9
+ reward1: -769055.9
+ reward1: -769055.9
+ reward1: -769055.9
+ reward1: -769055.9
+mean episode length: 28.418439716312058
+max episode reward: -6026285.800000001
+mean episode reward: -9525614.158865249
+min episode reward: -16219736.100000005
+total episodes: 2826
+distance: 5546368.7
+2022-07-10 00:43:04,436	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 909061.0x the scale of `vf_clip_param`. This means that it will take more than 909061.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+ reward2: -129555.5
+ reward2: -429713.5
+ reward2: -342753.2
+ reward2: -118804.1
+ reward2: -138332.9
+ reward2: -88252.2
+ reward2: -319242.9
+ reward2: -713658.2
+ reward2: -652825.0
+ reward2: -704651.7
+ reward2: -301837.2
+ reward2: -117809.3
+ reward2: -270695.6
+ reward2: -172090.2
+ reward2: -179608.5
+ reward2: -118131.3
+ reward2: -113336.1
+ reward2: -93444.7
+ reward2: -12473.5
+ reward2: -389605.8
+ reward2: -421464.6
+ reward2: -337279.0
+ reward2: -408464.1
+ reward2: -92128.5
+ reward2: -347259.0
+mean episode length: 27.888111888111887
+max episode reward: -5550230.600000001
+mean episode reward: -9090608.191608392
+min episode reward: -14320710.700000001
+total episodes: 2969
+distance: 7308439.299999999
+2022-07-10 00:43:15,994	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 865097.0x the scale of `vf_clip_param`. This means that it will take more than 865097.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+ reward2: -129555.5
+ reward2: -429713.5
+ reward2: -189499.9
+ reward2: -243655.0
+ reward2: -17375.0
+ reward2: -64869.2
+ reward2: -88252.2
+ reward2: -319242.9
+ reward2: -62632.3
+ reward2: -651065.8
+ reward2: -354464.5
+ reward2: -99824.6
+ reward2: -156936.4
+ reward2: -118804.1
+ reward2: -180046.9
+ reward2: -104729.1
+ reward2: -495320.1
+ reward2: -527213.4
+ reward2: -231339.6
+ reward2: -122221.9
+ reward2: -46033.5
+ reward2: -138626.3
+ reward2: -469580.1
+ reward2: -623955.2
+ reward2: -498310.7
+mean episode length: 27.579310344827586
+max episode reward: -5940954.899999999
+mean episode reward: -8650972.83448276
+min episode reward: -14510746.300000003
+total episodes: 3114
+distance: 6502604.4
+2022-07-10 00:43:28,170	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 833007.0x the scale of `vf_clip_param`. This means that it will take more than 833007.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+ reward2: -129555.5
+ reward2: -429713.5
+ reward2: -189499.9
+ reward2: -154959.4
+ reward2: -303735.0
+ reward2: -389605.8
+ reward2: -584130.6
+ reward2: -347259.0
+ reward2: -288734.3
+ reward2: -118131.3
+ reward2: -64869.2
+ reward2: -88252.2
+ reward2: -319242.9
+ reward2: -713658.2
+ reward2: -446697.6
+ reward2: -284776.1
+ reward2: -147590.6
+ reward2: -156936.4
+ reward2: -108576.9
+ reward2: -122221.9
+ reward2: -121419.1
+ reward2: -117741.9
+ reward2: -302278.1
+ reward2: -332709.6
+ reward2: -389441.9
+mean episode length: 27.08108108108108
+max episode reward: -5920814.100000001
+mean episode reward: -8330069.937837837
+min episode reward: -12871286.500000004
+total episodes: 3262
+distance: 7181831.199999999
+2022-07-10 00:43:40,731	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 823817.0x the scale of `vf_clip_param`. This means that it will take more than 823817.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+ reward2: -132829.9
+ reward2: -17375.0
+ reward2: -35513.3
+ reward2: -39054.3
+ reward2: -429713.5
+ reward2: -17192.2
+ reward2: -651065.8
+ reward2: -480389.3
+ reward2: -172090.2
+ reward2: -99687.4
+ reward2: -446501.6
+ reward2: -329008.4
+ reward2: -118804.1
+ reward2: -185720.6
+ reward2: -454509.4
+ reward2: -480649.5
+ reward2: -118988.8
+ reward2: -141027.5
+ reward2: -41845.3
+ reward2: -146523.3
+ reward2: -235605.1
+ reward2: -257453.6
+ reward2: -469580.1
+ reward2: -623955.2
+ reward2: -498310.7
+mean episode length: 26.986486486486488
+max episode reward: -5082780.7
+mean episode reward: -8238171.742567568
+min episode reward: -12478593.500000002
+total episodes: 3410
+distance: 6762730.799999999
+2022-07-10 00:43:53,653	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 800110.0x the scale of `vf_clip_param`. This means that it will take more than 800110.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+ reward2: -132829.9
+ reward2: -17375.0
+ reward2: -35513.3
+ reward2: -39054.3
+ reward2: -429713.5
+ reward2: -17192.2
+ reward2: -651065.8
+ reward2: -480389.3
+ reward2: -172090.2
+ reward2: -99687.4
+ reward2: -446501.6
+ reward2: -60291.8
+ reward2: -388193.3
+ reward2: -118804.1
+ reward2: -185720.6
+ reward2: -122221.9
+ reward2: -118988.8
+ reward2: -141027.5
+ reward2: -41845.3
+ reward2: -146523.3
+ reward2: -235605.1
+ reward2: -257453.6
+ reward2: -469580.1
+ reward2: -623955.2
+ reward2: -498310.7
+mean episode length: 26.766666666666666
+max episode reward: -5087348.500000001
+mean episode reward: -8001095.804666667
+min episode reward: -11912741.3
+total episodes: 3560
+distance: 6069270.499999999
+2022-07-10 00:44:06,530	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 788087.0x the scale of `vf_clip_param`. This means that it will take more than 788087.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+ reward2: -132829.9
+ reward2: -17375.0
+ reward2: -35513.3
+ reward2: -201989.6
+ reward2: -108576.9
+ reward2: -122221.9
+ reward2: -17604.4
+ reward2: -429713.5
+ reward2: -403299.7
+ reward2: -104729.1
+ reward2: -147559.6
+ reward2: -88252.2
+ reward2: -260013.0
+ reward2: -60291.8
+ reward2: -62632.3
+ reward2: -651065.8
+ reward2: -480389.3
+ reward2: -341362.5
+ reward2: -70696.9
+ reward2: -99824.6
+ reward2: -179608.5
+ reward2: -321135.5
+ reward2: -498551.3
+ reward2: -623955.2
+ reward2: -498310.7
+mean episode length: 26.62
+max episode reward: -5758147.8
+mean episode reward: -7880869.660000002
+min episode reward: -11455303.200000003
+total episodes: 3710
+distance: 6096839.2
+2022-07-10 00:44:19,408	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 752680.0x the scale of `vf_clip_param`. This means that it will take more than 752680.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+ reward2: -129555.5
+ reward2: -429713.5
+ reward2: -74726.7
+ reward2: -62632.3
+ reward2: -206683.7
+ reward2: -34275.0
+ reward2: -478718.2
+ reward2: -279078.9
+ reward2: -45082.7
+ reward2: -347759.0
+ reward2: -411671.0
+ reward2: -64869.2
+ reward2: -146523.3
+ reward2: -304497.5
+ reward2: -108576.9
+ reward2: -122221.9
+ reward2: -118988.8
+ reward2: -141027.5
+ reward2: -129890.9
+ reward2: -257453.6
+ reward2: -70696.9
+ reward2: -117741.9
+ reward2: -178349.4
+ reward2: -117076.7
+ reward2: -623955.2
+mean episode length: 26.30921052631579
+max episode reward: -5138456.100000001
+mean episode reward: -7526798.15131579
+min episode reward: -13037372.800000003
+total episodes: 3862
+distance: 5449448.100000001
+2022-07-10 00:44:32,126	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 722769.0x the scale of `vf_clip_param`. This means that it will take more than 722769.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+ reward2: -129555.5
+ reward2: -429713.5
+ reward2: -74726.7
+ reward2: -62632.3
+ reward2: -206683.7
+ reward2: -34275.0
+ reward2: -478718.2
+ reward2: -354464.5
+ reward2: -117741.9
+ reward2: -17375.0
+ reward2: -64869.2
+ reward2: -146523.3
+ reward2: -304497.5
+ reward2: -108576.9
+ reward2: -408816.5
+ reward2: -332709.6
+ reward2: -133097.2
+ reward2: -88181.2
+ reward2: -347759.0
+ reward2: -527213.4
+ reward2: -122017.2
+ reward2: -175906.0
+ reward2: -347259.0
+ reward2: -151075.7
+ reward2: -303735.0
+mean episode length: 26.15032679738562
+max episode reward: -5078816.6
+mean episode reward: -7227689.531372549
+min episode reward: -11087412.3
+total episodes: 4015
+distance: 5915804.900000001
+2022-07-10 00:44:42,973	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 723542.0x the scale of `vf_clip_param`. This means that it will take more than 723542.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+ reward2: -129555.5
+ reward2: -429713.5
+ reward2: -74726.7
+ reward2: -62632.3
+ reward2: -206683.7
+ reward2: -34275.0
+ reward2: -478718.2
+ reward2: -279078.9
+ reward2: -45082.7
+ reward2: -347759.0
+ reward2: -411671.0
+ reward2: -64869.2
+ reward2: -146523.3
+ reward2: -304497.5
+ reward2: -108576.9
+ reward2: -122221.9
+ reward2: -118988.8
+ reward2: -141027.5
+ reward2: -129890.9
+ reward2: -257453.6
+ reward2: -469580.1
+ reward2: -301837.2
+ reward2: -117809.3
+ reward2: -273115.0
+ reward2: -498310.7
+mean episode length: 26.215686274509803
+max episode reward: -4888594.9
+mean episode reward: -7235421.218300655
+min episode reward: -11071698.0
+total episodes: 4168
+distance: 5693935.1
+2022-07-10 00:44:54,440	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 701167.0x the scale of `vf_clip_param`. This means that it will take more than 701167.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+ reward2: -359295.0
+ reward2: -189389.2
+ reward2: -17192.2
+ reward2: -3659.1
+ reward2: -446450.6
+ reward2: -273115.0
+ reward2: -303735.0
+ reward2: -29855.2
+ reward2: -17375.0
+ reward2: -152914.8
+ reward2: -257453.6
+ reward2: -223771.7
+ reward2: -118804.1
+ reward2: -185720.6
+ reward2: -408816.5
+ reward2: -332709.6
+ reward2: -39054.3
+ reward2: -17565.0
+ reward2: -175906.0
+ reward2: -90453.1
+ reward2: -35211.3
+ reward2: -182903.8
+ reward2: -236.0
+ reward2: -407197.1
+ reward2: -713658.2
+mean episode length: 25.961038961038962
+max episode reward: -4898612.9
+mean episode reward: -7011669.535064936
+min episode reward: -10697328.600000001
+total episodes: 4322
+distance: 5192200.8
+2022-07-10 00:45:05,848	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 696412.0x the scale of `vf_clip_param`. This means that it will take more than 696412.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+ reward2: -129555.5
+ reward2: -429713.5
+ reward2: -16632.9
+ reward2: -3447.4
+ reward2: -389279.9
+ reward2: -201989.6
+ reward2: -118804.1
+ reward2: -185720.6
+ reward2: -123618.0
+ reward2: -151075.7
+ reward2: -104729.1
+ reward2: -35211.3
+ reward2: -122017.2
+ reward2: -246248.7
+ reward2: -354464.5
+ reward2: -117741.9
+ reward2: -243734.1
+ reward2: -408375.6
+ reward2: -117076.7
+ reward2: -623955.2
+ reward2: -262025.3
+ reward2: -64066.1
+ reward2: -64869.2
+ reward2: -88252.2
+ reward2: -319242.9
+mean episode length: 25.896103896103895
+max episode reward: -4626462.199999999
+mean episode reward: -6964115.596103896
+min episode reward: -11024939.1
+total episodes: 4476
+distance: 5514533.900000001
+2022-07-10 00:45:16,856	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 672377.0x the scale of `vf_clip_param`. This means that it will take more than 672377.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+ reward2: -129555.5
+ reward2: -429713.5
+ reward2: -16632.9
+ reward2: -3447.4
+ reward2: -206683.7
+ reward2: -34275.0
+ reward2: -154959.4
+ reward2: -303735.0
+ reward2: -104729.1
+ reward2: -35211.3
+ reward2: -127259.9
+ reward2: -354464.5
+ reward2: -117741.9
+ reward2: -17375.0
+ reward2: -64869.2
+ reward2: -88252.2
+ reward2: -169432.4
+ reward2: -108576.9
+ reward2: -122221.9
+ reward2: -482379.8
+ reward2: -576302.5
+ reward2: -469580.1
+ reward2: -332709.6
+ reward2: -45082.7
+ reward2: -236525.7
+mean episode length: 25.8
+max episode reward: -4422660.4
+mean episode reward: -6723770.371612903
+min episode reward: -10026879.2
+total episodes: 4631
+distance: 4871053.8
+2022-07-10 00:45:28,470	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 664945.0x the scale of `vf_clip_param`. This means that it will take more than 664945.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+ reward2: -129555.5
+ reward2: -429713.5
+ reward2: -16632.9
+ reward2: -60291.8
+ reward2: -62632.3
+ reward2: -206683.7
+ reward2: -34275.0
+ reward2: -213799.8
+ reward2: -104729.1
+ reward2: -35211.3
+ reward2: -127259.9
+ reward2: -354464.5
+ reward2: -273115.0
+ reward2: -221432.1
+ reward2: -123618.0
+ reward2: -223771.7
+ reward2: -157055.1
+ reward2: -360298.6
+ reward2: -301837.2
+ reward2: -17375.0
+ reward2: -152914.8
+ reward2: -161800.6
+ reward2: -175906.0
+ reward2: -238043.7
+ reward2: -45082.5
+mean episode length: 25.83225806451613
+max episode reward: -4206036.3
+mean episode reward: -6649451.239354839
+min episode reward: -10487790.599999998
+total episodes: 4786
+distance: 4383920.1000000015
+2022-07-10 00:45:40,165	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 642335.0x the scale of `vf_clip_param`. This means that it will take more than 642335.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+ reward2: -129555.5
+ reward2: -118917.6
+ reward2: -122017.2
+ reward2: -246248.7
+ reward2: -279078.9
+ reward2: -392812.2
+ reward2: -60291.8
+ reward2: -62632.3
+ reward2: -17242.2
+ reward2: -361590.0
+ reward2: -48465.3
+ reward2: -108591.1
+ reward2: -118804.1
+ reward2: -138332.9
+ reward2: -88252.2
+ reward2: -257453.6
+ reward2: -255804.9
+ reward2: -87331.3
+ reward2: -29934.3
+ reward2: -213799.8
+ reward2: -154959.4
+ reward2: -273472.5
+ reward2: -110002.9
+ reward2: -296459.5
+ reward2: -117026.3
+mean episode length: 25.67948717948718
+max episode reward: -4169731.500000001
+mean episode reward: -6423353.269871795
+min episode reward: -9044927.3
+total episodes: 4942
+distance: 4228413.199999999
+2022-07-10 00:45:51,311	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 648648.0x the scale of `vf_clip_param`. This means that it will take more than 648648.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+ reward2: -157984.6
+ reward2: -392812.2
+ reward2: -60291.8
+ reward2: -62632.3
+ reward2: -17242.2
+ reward2: -361590.0
+ reward2: -48465.3
+ reward2: -122221.9
+ reward2: -17604.4
+ reward2: -225307.8
+ reward2: -118804.1
+ reward2: -307609.7
+ reward2: -255804.9
+ reward2: -35211.3
+ reward2: -141027.5
+ reward2: -194575.8
+ reward2: -108845.3
+ reward2: -308434.8
+ reward2: -360298.6
+ reward2: -301837.2
+ reward2: -243734.1
+ reward2: -154959.4
+ reward2: -273472.5
+ reward2: -110002.9
+ reward2: -152914.8
+mean episode length: 25.66025641025641
+max episode reward: -4419666.100000001
+mean episode reward: -6486479.195512821
+min episode reward: -9398489.800000003
+total episodes: 5098
+distance: 4807523.199999999
+2022-07-10 00:46:02,819	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 620716.0x the scale of `vf_clip_param`. This means that it will take more than 620716.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+ reward2: -138381.5
+ reward2: -409967.2
+ reward2: -172090.2
+ reward2: -406988.9
+ reward2: -74675.6
+ reward2: -16632.9
+ reward2: -3447.4
+ reward2: -206683.7
+ reward2: -123791.2
+ reward2: -221432.1
+ reward2: -122221.9
+ reward2: -33544.1
+ reward2: -104729.1
+ reward2: -35211.3
+ reward2: -127259.9
+ reward2: -354464.5
+ reward2: -117741.9
+ reward2: -228717.5
+ reward2: -157055.1
+ reward2: -88252.2
+ reward2: -257453.6
+ reward2: -173191.9
+ reward2: -296459.5
+ reward2: -299521.4
+ reward2: -39013.9
+mean episode length: 25.666666666666668
+max episode reward: -3734746.1000000006
+mean episode reward: -6207158.836538462
+min episode reward: -8797709.4
+total episodes: 5254
+distance: 4365349.0
+2022-07-10 00:46:14,399	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 606478.0x the scale of `vf_clip_param`. This means that it will take more than 606478.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+ reward2: -138381.5
+ reward2: -409967.2
+ reward2: -172090.2
+ reward2: -347759.0
+ reward2: -60291.8
+ reward2: -74675.6
+ reward2: -17192.2
+ reward2: -206683.7
+ reward2: -123791.2
+ reward2: -303735.0
+ reward2: -104729.1
+ reward2: -35211.3
+ reward2: -231339.6
+ reward2: -122221.9
+ reward2: -246248.7
+ reward2: -354464.5
+ reward2: -117741.9
+ reward2: -228717.5
+ reward2: -157055.1
+ reward2: -88252.2
+ reward2: -257453.6
+ reward2: -173191.9
+ reward2: -296459.5
+ reward2: -299521.4
+ reward2: -39013.9
+mean episode length: 25.576923076923077
+max episode reward: -4155895.0
+mean episode reward: -6064782.460256412
+min episode reward: -8585278.900000002
+total episodes: 5410
+distance: 4762610.000000001
+Traceback (most recent call last):
+  File "/home/kartushov/pet_projects/RLTPS/main.py", line 238, in <module>
+    agent = train_func(agent)
+  File "/home/kartushov/pet_projects/RLTPS/main.py", line 108, in train_func
+    result = agent.train()
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/tune/trainable.py", line 319, in train
+    result = self.step()
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/agents/trainer.py", line 965, in step
+    step_attempt_results = self.step_attempt()
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/agents/trainer.py", line 1044, in step_attempt
+    step_results = self._exec_plan_or_training_iteration_fn()
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/agents/trainer.py", line 2032, in _exec_plan_or_training_iteration_fn
+    results = next(self.train_exec_impl)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 756, in __next__
+    return next(self.built_iterator)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 783, in apply_foreach
+    for item in it:
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 783, in apply_foreach
+    for item in it:
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 843, in apply_filter
+    for item in it:
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 843, in apply_filter
+    for item in it:
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 783, in apply_foreach
+    for item in it:
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 783, in apply_foreach
+    for item in it:
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 791, in apply_foreach
+    result = fn(item)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/execution/train_ops.py", line 329, in __call__
+    results = policy.learn_on_loaded_batch(
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/policy/torch_policy.py", line 534, in learn_on_loaded_batch
+    return self.learn_on_batch(batch)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/utils/threading.py", line 21, in wrapper
+    return func(self, *a, **k)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/policy/torch_policy.py", line 434, in learn_on_batch
+    grads, fetches = self.compute_gradients(postprocessed_batch)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/utils/threading.py", line 21, in wrapper
+    return func(self, *a, **k)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/policy/torch_policy.py", line 605, in compute_gradients
+    tower_outputs = self._multi_gpu_parallel_grad_calc(
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/policy/torch_policy.py", line 1083, in _multi_gpu_parallel_grad_calc
+    _worker(shard_idx, model, sample_batch, device)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/policy/torch_policy.py", line 1034, in _worker
+    loss_out[opt_idx].backward(retain_graph=True)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/torch/_tensor.py", line 363, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/torch/autograd/__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/kartushov/pet_projects/RLTPS/main.py", line 238, in <module>
+    agent = train_func(agent)
+  File "/home/kartushov/pet_projects/RLTPS/main.py", line 108, in train_func
+    result = agent.train()
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/tune/trainable.py", line 319, in train
+    result = self.step()
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/agents/trainer.py", line 965, in step
+    step_attempt_results = self.step_attempt()
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/agents/trainer.py", line 1044, in step_attempt
+    step_results = self._exec_plan_or_training_iteration_fn()
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/agents/trainer.py", line 2032, in _exec_plan_or_training_iteration_fn
+    results = next(self.train_exec_impl)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 756, in __next__
+    return next(self.built_iterator)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 783, in apply_foreach
+    for item in it:
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 783, in apply_foreach
+    for item in it:
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 843, in apply_filter
+    for item in it:
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 843, in apply_filter
+    for item in it:
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 783, in apply_foreach
+    for item in it:
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 783, in apply_foreach
+    for item in it:
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 791, in apply_foreach
+    result = fn(item)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/execution/train_ops.py", line 329, in __call__
+    results = policy.learn_on_loaded_batch(
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/policy/torch_policy.py", line 534, in learn_on_loaded_batch
+    return self.learn_on_batch(batch)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/utils/threading.py", line 21, in wrapper
+    return func(self, *a, **k)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/policy/torch_policy.py", line 434, in learn_on_batch
+    grads, fetches = self.compute_gradients(postprocessed_batch)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/utils/threading.py", line 21, in wrapper
+    return func(self, *a, **k)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/policy/torch_policy.py", line 605, in compute_gradients
+    tower_outputs = self._multi_gpu_parallel_grad_calc(
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/policy/torch_policy.py", line 1083, in _multi_gpu_parallel_grad_calc
+    _worker(shard_idx, model, sample_batch, device)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/policy/torch_policy.py", line 1034, in _worker
+    loss_out[opt_idx].backward(retain_graph=True)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/torch/_tensor.py", line 363, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/torch/autograd/__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

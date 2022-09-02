@@ -1,0 +1,143 @@
+
+2022-06-18 14:43:53,193	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 4156657.0x the scale of `vf_clip_param`. This means that it will take more than 4156657.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+ reward2: -782702.2
+ reward2: -757845.1
+ reward2: -567538.4
+ reward2: -431877.5
+ reward2: -45231.9
+ reward2: -371544.5
+ reward1: -794596.1
+ reward1: -794596.1
+ reward1: -794596.1
+ reward1: -794596.1
+ reward1: -794596.1
+ reward1: -794596.1
+ reward1: -794596.1
+ reward1: -794596.1
+ reward1: -794596.1
+ reward1: -794596.1
+ reward1: -794596.1
+ reward1: -794596.1
+mean episode length: 60.86153846153846
+max episode reward: -16369890.499999996
+mean episode reward: -41566567.60461542
+min episode reward: -86260827.69999994
+total episodes: 65
+distance: 3447535.9999999995
+2022-06-18 14:44:03,701	WARNING ppo.py:162 -- The magnitude of your environment rewards are more than 3923860.0x the scale of `vf_clip_param`. This means that it will take more than 3923860.0 iterations for your value function to converge. If this is not intended, consider increasing `vf_clip_param`.
+ reward2: -636364.1
+ reward2: -611975.6
+ reward2: -183059.1
+ reward1: -794596.1
+ reward1: -794596.1
+ reward1: -794596.1
+ reward1: -794596.1
+ reward1: -794596.1
+ reward1: -794596.1
+ reward1: -794596.1
+ reward1: -794596.1
+ reward1: -794596.1
+ reward1: -794596.1
+ reward1: -794596.1
+ reward1: -794596.1
+ reward1: -794596.1
+ reward1: -794596.1
+ reward1: -794596.1
+mean episode length: 57.82
+max episode reward: -12637000.599999998
+mean episode reward: -39238599.091000035
+min episode reward: -86260827.69999994
+total episodes: 136
+distance: 1614457.9000000001
+Traceback (most recent call last):
+  File "/home/kartushov/pet_projects/RLTPS/main.py", line 225, in <module>
+    agent = train_func(agent)
+  File "/home/kartushov/pet_projects/RLTPS/main.py", line 105, in train_func
+    result = agent.train()
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/tune/trainable.py", line 319, in train
+    result = self.step()
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/agents/trainer.py", line 965, in step
+    step_attempt_results = self.step_attempt()
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/agents/trainer.py", line 1044, in step_attempt
+    step_results = self._exec_plan_or_training_iteration_fn()
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/agents/trainer.py", line 2032, in _exec_plan_or_training_iteration_fn
+    results = next(self.train_exec_impl)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 756, in __next__
+    return next(self.built_iterator)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 783, in apply_foreach
+    for item in it:
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 783, in apply_foreach
+    for item in it:
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 843, in apply_filter
+    for item in it:
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 843, in apply_filter
+    for item in it:
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 783, in apply_foreach
+    for item in it:
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 783, in apply_foreach
+    for item in it:
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 791, in apply_foreach
+    result = fn(item)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/execution/train_ops.py", line 329, in __call__
+    results = policy.learn_on_loaded_batch(
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/policy/torch_policy.py", line 534, in learn_on_loaded_batch
+    return self.learn_on_batch(batch)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/utils/threading.py", line 21, in wrapper
+    return func(self, *a, **k)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/policy/torch_policy.py", line 434, in learn_on_batch
+    grads, fetches = self.compute_gradients(postprocessed_batch)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/utils/threading.py", line 21, in wrapper
+    return func(self, *a, **k)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/policy/torch_policy.py", line 605, in compute_gradients
+    tower_outputs = self._multi_gpu_parallel_grad_calc(
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/policy/torch_policy.py", line 1083, in _multi_gpu_parallel_grad_calc
+    _worker(shard_idx, model, sample_batch, device)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/policy/torch_policy.py", line 1032, in _worker
+    param.grad.data.zero_()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/kartushov/pet_projects/RLTPS/main.py", line 225, in <module>
+    agent = train_func(agent)
+  File "/home/kartushov/pet_projects/RLTPS/main.py", line 105, in train_func
+    result = agent.train()
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/tune/trainable.py", line 319, in train
+    result = self.step()
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/agents/trainer.py", line 965, in step
+    step_attempt_results = self.step_attempt()
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/agents/trainer.py", line 1044, in step_attempt
+    step_results = self._exec_plan_or_training_iteration_fn()
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/agents/trainer.py", line 2032, in _exec_plan_or_training_iteration_fn
+    results = next(self.train_exec_impl)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 756, in __next__
+    return next(self.built_iterator)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 783, in apply_foreach
+    for item in it:
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 783, in apply_foreach
+    for item in it:
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 843, in apply_filter
+    for item in it:
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 843, in apply_filter
+    for item in it:
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 783, in apply_foreach
+    for item in it:
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 783, in apply_foreach
+    for item in it:
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/util/iter.py", line 791, in apply_foreach
+    result = fn(item)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/execution/train_ops.py", line 329, in __call__
+    results = policy.learn_on_loaded_batch(
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/policy/torch_policy.py", line 534, in learn_on_loaded_batch
+    return self.learn_on_batch(batch)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/utils/threading.py", line 21, in wrapper
+    return func(self, *a, **k)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/policy/torch_policy.py", line 434, in learn_on_batch
+    grads, fetches = self.compute_gradients(postprocessed_batch)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/utils/threading.py", line 21, in wrapper
+    return func(self, *a, **k)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/policy/torch_policy.py", line 605, in compute_gradients
+    tower_outputs = self._multi_gpu_parallel_grad_calc(
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/policy/torch_policy.py", line 1083, in _multi_gpu_parallel_grad_calc
+    _worker(shard_idx, model, sample_batch, device)
+  File "/home/kartushov/pet_projects/RLTPS/venv/lib/python3.9/site-packages/ray/rllib/policy/torch_policy.py", line 1032, in _worker
+    param.grad.data.zero_()
+KeyboardInterrupt

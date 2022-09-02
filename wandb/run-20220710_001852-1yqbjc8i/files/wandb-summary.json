@@ -1,0 +1,1 @@
+{"gen:": 101.0, "nevals": 228.0, "distance": 2625859.083, "std": 586199.5952530793, "min": 2432662.5, "max": 6331536.600000001, "time one iteration": 0.007115602493286133, "total time": 0.7121846675872803, "_timestamp": 1657401535, "_runtime": 3, "_step": 101, "_wandb": {"runtime": 4}}

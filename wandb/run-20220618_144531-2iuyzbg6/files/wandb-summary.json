@@ -1,0 +1,1 @@
+{"mean episode length:": 17.046808510638296, "max episode reward:": -2209860.0999999996, "mean episode reward:": -2702853.862553192, "min episode reward:": -7612919.799999999, "total episodes:": 10101, "distance": 2209860.0999999996, "_timestamp": 1655553259, "_runtime": 528, "_step": 50, "_wandb": {"runtime": 530}}

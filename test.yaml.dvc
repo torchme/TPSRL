@@ -1,0 +1,4 @@
+outs:
+- md5: 7414cde9fce4e140c5df89520cb8179a
+  size: 127
+  path: test.yaml
